@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Настройка PID</title>
+    <link rel="stylesheet" href="/static/base.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Настройка коэффициентов PID</h1>
+        <form action="/pid" method="post">
+            <label for="p_value">P-коэффициент:</label>
+            <input type="number" step="any" id="p_value" name="P" required>
+        
+            <label for="i_value">I-коэффициент:</label>
+            <input type="number" step="any" id="i_value" name="I" required>
+        
+            <label for="d_value">D-коэффициент:</label>
+            <input type="number" step="any" id="d_value" name="D" required>
+        
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>
