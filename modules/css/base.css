@@ -33,14 +33,13 @@ label {
 }
 
 input[type="number"] {
-    padding: 8px;
+    padding: 18px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 button {
     padding: 10px;
-    background-color: #4caf50;
     color: white;
     border: none;
     border-radius: 5px;
