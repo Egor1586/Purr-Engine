@@ -4,7 +4,7 @@ from .app import app, html_templates
 from fastapi import Request
 from fastapi.responses import JSONResponse
 
-ESP8266_URL = "http://192.168.1.100/update_pid"
+ESP8266_URL = "http://192.168.3.166:9200/upgrade_pid"
 
 @app.get('/')
 async def homepage(request: Request):
